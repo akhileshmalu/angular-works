@@ -1,0 +1,25 @@
+<!DOCTYPE html >
+<html lang="en-US" ng-app="myClock">
+	<head>
+		<meta charset="utf-8">
+		<title>Clock</title>
+		<!-- [if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+		<![endif]-->
+
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+	</head>
+	<body>
+		<div ng-controller="myControl as ctrl">
+		<h1>Clock App</h1>
+			<p>The current time is : {{ctrl.currentTime}} </p>
+			<button ng-click = "ctrl.updateTime()">Change Time</button>
+		
+		<script>
+		
+		</script>
+		
+		</div>
+	</body>
+</html>

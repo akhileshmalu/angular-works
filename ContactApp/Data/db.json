@@ -1,0 +1,174 @@
+{
+  "contacts": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "miss",
+        "first": "bernarda",
+        "last": "farias"
+      },
+      "location": {
+        "street": "1475 avenida da democracia",
+        "city": "simões filho1",
+        "state": "rio grande do sul",
+        "postcode": 54725
+      },
+      "email": "bernarda.farias@example.com",
+      "login": {
+        "username": "crazylion560",
+        "password": "budweise",
+        "salt": "G0tJB2Bb",
+        "md5": "f9dd3350f731e2479868f4c3106cdec7",
+        "sha1": "d061030401198576fe5536ec41c1b2f00785b8ef",
+        "sha256": "aade5dea5f1bc6e3f7930330f7117eeb9e35ad3b9a558898a0073ec607db0c45"
+      },
+      "dob": "1953-08-11 04:44:55",
+      "registered": "2016-03-16 09:41:31",
+      "phone": "(42) 5287-2961",
+      "cell": "(37) 3096-8713",
+      "id": "1",
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/1.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/1.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/1.jpg"
+      },
+      "nat": "BR"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "ms",
+        "first": "jasmien",
+        "last": "pruijn"
+      },
+      "location": {
+        "street": "7540 blauwkapelseweg",
+        "city": "hoogezand-sappemeer",
+        "state": "friesland",
+        "postcode": 58487
+      },
+      "email": "jasmien.pruijn@example.com",
+      "login": {
+        "username": "yellowrabbit675",
+        "password": "dollars",
+        "salt": "9NluXwnU",
+        "md5": "ee830f89332c1333644c233141d85919",
+        "sha1": "d376c45ab01c176b0774cd48662d6a722d597f05",
+        "sha256": "c0924b547dcf668fea4909058820cd97828a5d0aff02110f1dd71b79419fcaa7"
+      },
+      "dob": "1952-08-04 03:55:25",
+      "registered": "2010-01-30 12:24:22",
+      "phone": "(477)-057-1425",
+      "cell": "(445)-532-1544",
+      "id": "2",
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/9.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/9.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/9.jpg"
+      },
+      "nat": "NL"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "ms",
+        "first": "juanita",
+        "last": "looij"
+      },
+      "location": {
+        "street": "8296 veeartsenijpad",
+        "city": "waterland",
+        "state": "zeeland",
+        "postcode": 91064
+      },
+      "email": "juanita.looij@example.com",
+      "login": {
+        "username": "smallmeercat392",
+        "password": "murder",
+        "salt": "ofTDEqr6",
+        "md5": "c4aafb1d0543895c3b7193589cc00301",
+        "sha1": "379c706be55c2f9b679937927aca312203b22483",
+        "sha256": "6e940c36d820261f2f76bf1e3e48a9cf1a6c2180f7b4f13258a33ec0aba392c7"
+      },
+      "dob": "1946-08-25 22:37:53",
+      "registered": "2010-07-23 11:41:13",
+      "phone": "(306)-749-0012",
+      "cell": "(755)-930-4424",
+      "id": "3",
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/20.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/20.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/20.jpg"
+      },
+      "nat": "NL"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "daniel",
+        "last": "wirta"
+      },
+      "location": {
+        "street": "5479 rautatienkatu",
+        "city": "kokkola",
+        "state": "kainuu",
+        "postcode": 38760
+      },
+      "email": "daniel.wirta@example.com",
+      "login": {
+        "username": "blueostrich954",
+        "password": "rotten",
+        "salt": "LcuBAD30",
+        "md5": "942708ae3a2812f540f19445755b90f8",
+        "sha1": "80548a1fa31d81e856d51e6e2c36247a8844b76c",
+        "sha256": "98c36cd0754890f0d08fe5a7dee2b91fa49be27504888d4058e677b44fadbac5"
+      },
+      "dob": "1952-09-15 23:39:32",
+      "registered": "2016-07-11 13:33:56",
+      "phone": "06-005-917",
+      "cell": "040-044-51-45",
+      "id": "4",
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/70.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/70.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/70.jpg"
+      },
+      "nat": "FI"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "ms",
+        "first": "pia",
+        "last": "zimmer"
+      },
+      "location": {
+        "street": "6725 goethestraße",
+        "city": "cham",
+        "state": "bayern",
+        "postcode": 65002
+      },
+      "email": "pia.zimmer@example.com",
+      "login": {
+        "username": "lazypanda249",
+        "password": "gizmo1",
+        "salt": "EBicLvTq",
+        "md5": "4cfd06234e0c199c0140410e192a50e0",
+        "sha1": "8c4a0b86294733669da26ebf26892c2ece8113a9",
+        "sha256": "c2765cd6ab7389fa0a637c49574220ce9f47f70c59b492f0e3a70e5a60f3b27d"
+      },
+      "dob": "1947-04-15 22:16:26",
+      "registered": "2014-10-21 00:32:35",
+      "phone": "0202-8280840",
+      "cell": "0176-6098459",
+      "id": "5",
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/2.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/2.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/2.jpg"
+      },
+      "nat": "DE"
+    }
+  ]
+}

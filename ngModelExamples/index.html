@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US" ng-app="ngModelExamples">
+	<head>
+		<meta charset="utf-8">
+		<title>Model Binding with Input Types</title>
+		<!-- [if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+		<![endif]-->
+
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+	</head>
+	<body>
+	<h1>Model Binding with Input Types &amp Controller - as syntax </h1>
+		<div ng-controller="ngModelExController as c1">
+			<p> Your Name is: <input type="text" ng-change="c1.showGreet()" ng-model="c1.nameText"> </p>
+			<p> Are you indian ? <input type="checkbox" ng-model="c1.residencyCheck"> </p>
+			
+			<div>
+				<p> Choice of Food: </p>
+				<p> Vegeterian <input type="radio" ng-model="c1.foodPref" value="veg"></p>
+				<p> Non - Vegeterian <input type="radio" ng-model="c1.foodPref" value="non-veg"></p>	
+				<p> Vegan <input type="radio" ng-model="c1.foodPref" value="vegan"></p>			
+			</div>
+
+			<div id="greet" style="display:none">
+				<h2> Hi {{c1.nameText}},</h2> 
+				<p ng-if="c1.residencyCheck">You are an Indian </p>
+				<p>who like {{c1.foodPref}}</p>
+			</div>
+		</div>
+	</body>
+</html>

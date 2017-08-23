@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-US" ng-app="toDoApp">
+	<head>
+		<meta charset="utf-8">
+		<title>To Do Application</title>
+		<!-- [if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+		<![endif]-->
+
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+		
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+	</head>
+	<body>
+		
+		<div ng-controller="toDoController as ctrl">
+		<h1>To Do Application</h1>
+			<input type="textbox" ng-model="ctrl.newToDo">
+			<button ng-click="ctrl.addItem()">Add</button>
+			<div>
+				<button ng-click="ctrl.editItem()">{{ctrl.editCaption}}</button>
+				<ol>
+					<li ng-repeat="item in ctrl.toDoList track by $index">
+						<span ng-hide="ctrl.editBtn">{{item}}</span>
+						<input ng-show="ctrl.editBtn" ng-change="ctrl.update($index, item)" type="text" ng-model="item">
+					</li>
+				</ol>
+			</div>
+		</div>
+	</body>
+</html>

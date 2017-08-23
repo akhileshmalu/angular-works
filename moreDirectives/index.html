@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US" ng-app="ngMoreDirectives">
+	<head>
+		<meta charset="utf-8">
+		<title>More Directives</title>
+		<!-- [if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+		<![endif]-->
+
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+	</head>
+	<body>
+	<h1>More Directives</h1>
+		<div ng-controller="ngMoreDirecControll as ctrl">
+
+			<!-- <input type="checkbox" ng-model="ctrl.check">
+			<p ng-if="ctrl.check">Some Content</p>
+			<p ng-show="ctrl.check">Some Content</p>
+			<p ng-hide="ctrl.check">Some Content</p> -->
+
+			<div ng-repeat = "obj in ctrl.myList">
+				<p> Counter No: {{$index + 1}} </p>
+				
+				<p ng-show="$even">Hare Ram</p>
+				<p ng-show="$odd">Hare Krishna</p>
+
+				<p> Hello {{obj.name}}</p>
+				<p> Age: {{obj.age}}</p>
+				<hr>
+			</div>
+
+		</div>
+	</body>
+</html>

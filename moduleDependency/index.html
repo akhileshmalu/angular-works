@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en-US" ng-app="mainModuleApp">
+	<head>
+		<meta charset="utf-8">
+		<title>More Directives</title>
+		<!-- [if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" href="http://mbenford.github.io/ngTagsInput/css/ng-tags-input.min.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+		<script src="http://mbenford.github.io/ngTagsInput/js/ng-tags-input.min.js"></script>
+	</head>
+	<body>
+		<h1>More Directives</h1>
+		<div ng-controller="mainController as ctrl">
+			<tags-input ng-model="ctrl.tags"></tags-input>
+			<p>Model: {{tags}}</p>
+		</div>
+	</body>
+</html>
