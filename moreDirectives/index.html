@@ -30,6 +30,29 @@
 				<hr>
 			</div>
 
+<!-- 			Demo of select item & list -->
+
+			<select ng-model="ctrl.selectedListItem" ng-options="x.name for x in ctrl.myList"></select>
+			<p>{{ctrl.selectedListItem.name + ", " + ctrl.selectedListItem.age}}</p>
+
+			<div ng-switch="ctrl.selectedListItem.name">
+				<div ng-switch-when="tyrian">
+					<h2>Tyrian Leninster - Age: {{ctrl.selectedListItem.age}}</h2>
+					<h4>Hand of Queen. Denyris Targerian</h4>					
+				</div>
+
+				<div ng-switch-when="cersei">
+					<h2>Cersei Leninster - Age: {{ctrl.selectedListItem.age}}</h2>
+					<h4>Queen. Iron Throne at Westeros</h4>			
+				</div>
+
+				<div ng-switch-when="john">
+					<h2>John Snow - Age: {{ctrl.selectedListItem.age}}</h2>
+					<h4>King in the North</h4>	
+				</div>
+				
+			</div>
+
 		</div>
 	</body>
 </html>
