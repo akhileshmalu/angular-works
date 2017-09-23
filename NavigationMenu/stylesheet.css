@@ -1,0 +1,66 @@
+body {
+	font-family: Arial, sans-serif;
+	line-height: 1.45;
+	background: #E0DCCC;
+	color: #333;
+	font-size: 18px;
+}
+
+nav {
+	
+	background-color: rgb(50,250,50);
+	float: left;
+	margin: 0px;
+	padding: 0px !important;
+
+}
+
+#navItem {
+	margin:0px;
+	padding:15px;
+}
+
+nav div a {
+	display:inline-block;
+	text-decoration: none;
+	color: black;
+	width: 200px;
+}
+
+.nav-link:hover {
+	background-color: rgb(0,128,0);
+	color: white;
+}
+
+.center {
+	margin-left: 40%;
+}
+
+#calculator {
+	background-color: #61a1bc;
+	padding: 20px 20px;
+}
+
+.billDisplay {
+	background-color: rgb(220,20,20);
+	height: 40px;
+	margin: 20px 20px;
+	padding: 10px 20px;
+}
+
+.active{
+	background-color: yellow;
+}
+
+#left, #right {
+	display: inline;
+}
+
+#left {
+	float: left;
+	position: relative;
+}
+#right {
+	float: right;
+	position: relative;
+}

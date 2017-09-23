@@ -1,10 +1,11 @@
 (function() {
 
 	var ContactApp = angular.module("ContactApp");
+
 	ContactApp.controller("ContactCtrl", ContactCtrl);
 
 	// Contact Controller
-	function ContactCtrl(contactDataSvc, $http) {
+	function ContactCtrl(contactDataSvc) {
 		
 		var self = this;
 		contactDataSvc.getContactData()
@@ -65,8 +66,7 @@
 						function() {
 							self.errorDisplay = "There was an error. Please try again later.";		
 						}
-						);
-
+					);
 				} else {
 
 					contactDataSvc.saveContact(this.selectedContact)
@@ -77,10 +77,8 @@
 						function() {
 							self.errorDisplay = "There was an error. Please try again later.";		
 						}
-						);
-				}
-
-				
+					);
+				}	
 			}
 		}
 	}

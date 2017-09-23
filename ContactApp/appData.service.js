@@ -4,7 +4,7 @@
 
 	ContactApp.service("AppDataService", AppDataServiceMethod);
 
-	// Implementation of service functoin defined above; Contructor mode initialization; Popular than factory;
+	// Implementation of service function defined above; Contructor mode initialization; Popular than factory;
 	function AppDataServiceMethod() {
 	this.name  = "My Contact Application Demo";
 	this.author = "Akhilesh Maloo";
